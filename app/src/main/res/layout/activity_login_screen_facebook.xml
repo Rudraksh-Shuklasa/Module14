@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".Welcome">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+        <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/profileImage"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:text="name"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/email"
+                android:textSize="20dp"
+                android:text="email"
+                android:layout_marginTop="20dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/userId"
+                android:textSize="20dp"
+                android:text="id"
+                android:layout_marginTop="20dp"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/logoutBtn"
+                android:text="Logout"
+                android:layout_marginTop="30dp"/>
+
+        <com.facebook.share.widget.LikeView
+                android:text="Like Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:id="@+id/btnLike" />
+
+        <Button
+                android:text="Share Links"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/btnShareLinks" />
+
+        <Button
+                android:text="Share Photos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/btnSharePhotos" />
+
+        <Button
+                android:text="Share Videos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/btnShareVideos" />
+    </LinearLayout>
+
+</RelativeLayout>

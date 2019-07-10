@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Module-14</string>
+    <string name="facebook_app_id">344655549541908</string>
+    <string name="fb_login_protocol_scheme">fb344655549541908</string>
+
+
+    <string name="twitter_api_key">bK2OeVjuMWNud0Npc7WBRd2XK</string>
+    <string name="twitter_api_secret_kay">VtvIqJgmy8DISn0m3lqfwvRPBQx2MPCpM5QKV2APV3Fh1GLKMr</string>
+
+</resources>
